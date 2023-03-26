@@ -1,0 +1,56 @@
+@import "../reset.css";
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+    padding:20px;
+}
+
+h2 {
+    font-size: 3.5vw;
+    font-weight: bold;
+}
+
+#profiles{
+    display: flex;
+    flex-direction: row;
+}
+
+.profile {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 40px 20px;
+}
+.profile>img{
+    border-radius: 15px;
+    border: 2px solid gray;
+}
+.profile>label{
+    margin-top: 10px;
+    font-size: 20px;
+    color:gray;
+}
+
+.profile>img:hover {
+    border: 2px solid white;
+}
+
+#manageProfileButton{
+    color:gray;
+    cursor: pointer;
+    display: block;
+    font-size: 1.2vw;
+    background-color: transparent;
+    border: 1px solid gray;
+    padding:10px 20px;
+}
+
+#manageProfileButton:hover{
+    border: 1px solid white;
+    color: white;
+    outline:0;
+}
