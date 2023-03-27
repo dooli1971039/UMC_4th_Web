@@ -1,120 +1,167 @@
 <!DOCTYPE html>
 <html lang="ko">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Clone Netflix</title>
-    <link rel="stylesheet" href="main.css">
-</head>
-<body>
-    <header>
-        <img id="logo" src="../resource/netflix.jpg"/>
-        <div class="menu">
-            <span>홈</span>
-            <span>시리즈</span>
-            <span>영화</span>
-            <span>NEW! 요즘 영화 대세 콘텐츠</span>
-            <span onclick="location.href='../myList/myList.html'">내가 찜한 콘텐츠</span>
-            <span>언어별로 찾아보기</span>
-        </div>
-    </header>
-    <main>
-        <section id="main_1">
-           
-        </section>
-        <section>
-            <div class="sec">
-                <label>카메라 뒤 여성 제작진</label>
-                <div class="imgs">
-                    <img src='https://picsum.photos/250/141'/>
-                    <img src='https://picsum.photos/250/141'/>
-                    <img src='https://picsum.photos/250/141'/>
-                    <img src='https://picsum.photos/250/141'/>
-                    <img src='https://picsum.photos/250/141'/>
-                    <img src='https://picsum.photos/250/141'/>
-                    <img src='https://picsum.photos/250/141'/>
-                    <img src='https://picsum.photos/250/141'/>
-                    <img src='https://picsum.photos/250/141'/>
-                    <img src='https://picsum.photos/250/141'/>
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Clone Netflix</title>
+        <link rel="stylesheet" href="main.css" />
+    </head>
+    <body>
+        <header>
+            <img id="logo" src="../resource/netflix.jpg" />
+            <div class="menus">
+                <div class="menu">
+                    <span>홈</span>
+                    <span>시리즈</span>
+                    <span>영화</span>
+                    <span>NEW! 요즘 영화 대세 콘텐츠</span>
+                    <span onclick="location.href='../myList/myList.html'">내가 찜한 콘텐츠</span>
+                    <span>언어별로 찾아보기</span>
+                </div>
+                <div class="sub_menu">
+                    <img src="../resource/search.svg" />
+                    <img src="../resource/bell.svg" />
+                    <img src="https://picsum.photos/24/24" />
                 </div>
             </div>
-            <div class="sec">
-                <label>카메라 뒤 여성 제작진</label>
-                <div class="imgs">
-                    <img src='https://picsum.photos/250/141'/>
-                    <img src='https://picsum.photos/250/141'/>
-                    <img src='https://picsum.photos/250/141'/>
-                    <img src='https://picsum.photos/250/141'/>
-                    <img src='https://picsum.photos/250/141'/>
-                    <img src='https://picsum.photos/250/141'/>
-                    <img src='https://picsum.photos/250/141'/>
-                    <img src='https://picsum.photos/250/141'/>
-                    <img src='https://picsum.photos/250/141'/>
-                    <img src='https://picsum.photos/250/141'/>
+        </header>
+        <main>
+            <section id="main_1">
+                <div>
+                    <label class="title">원피스</label>
+                    <div class="description">
+                        원피스는 해적을 동경하던 소년 몽키 D. 루피가 주인공으로, 그 루피가 자라나 해적왕을 목표로 대비보
+                        원피스를 찾는 과정을 그린 모험만화이다.
+                    </div>
+                    <div class="buttons">
+                        <div id="play">
+                            <img src="../resource/play.svg" />
+                            <span>재생</span>
+                        </div>
+                        <div id="info">
+                            <img src="../resource/info.svg" />
+                            <span>상세정보</span>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section>
+                <div class="sec">
+                    <label>카메라 뒤 여성 제작진</label>
+                    <div class="imgs">
+                        <img src="https://picsum.photos/250/141" />
+                        <img src="https://picsum.photos/250/141" />
+                        <img src="https://picsum.photos/250/141" />
+                        <img src="https://picsum.photos/250/141" />
+                        <img src="https://picsum.photos/250/141" />
+                        <img src="https://picsum.photos/250/141" />
+                        <img src="https://picsum.photos/250/141" />
+                        <img src="https://picsum.photos/250/141" />
+                        <img src="https://picsum.photos/250/141" />
+                        <img src="https://picsum.photos/250/141" />
+                    </div>
+                </div>
+                <div class="sec">
+                    <label>카메라 뒤 여성 제작진</label>
+                    <div class="imgs">
+                        <img src="https://picsum.photos/250/141" />
+                        <img src="https://picsum.photos/250/141" />
+                        <img src="https://picsum.photos/250/141" />
+                        <img src="https://picsum.photos/250/141" />
+                        <img src="https://picsum.photos/250/141" />
+                        <img src="https://picsum.photos/250/141" />
+                        <img src="https://picsum.photos/250/141" />
+                        <img src="https://picsum.photos/250/141" />
+                        <img src="https://picsum.photos/250/141" />
+                        <img src="https://picsum.photos/250/141" />
+                    </div>
+                </div>
+                <div class="sec">
+                    <label>카메라 뒤 여성 제작진</label>
+                    <div class="imgs">
+                        <img src="https://picsum.photos/250/141" />
+                        <img src="https://picsum.photos/250/141" />
+                        <img src="https://picsum.photos/250/141" />
+                        <img src="https://picsum.photos/250/141" />
+                        <img src="https://picsum.photos/250/141" />
+                        <img src="https://picsum.photos/250/141" />
+                        <img src="https://picsum.photos/250/141" />
+                        <img src="https://picsum.photos/250/141" />
+                        <img src="https://picsum.photos/250/141" />
+                        <img src="https://picsum.photos/250/141" />
+                    </div>
+                </div>
+                <div class="sec">
+                    <label>카메라 뒤 여성 제작진</label>
+                    <div class="imgs">
+                        <img src="https://picsum.photos/250/141" />
+                        <img src="https://picsum.photos/250/141" />
+                        <img src="https://picsum.photos/250/141" />
+                        <img src="https://picsum.photos/250/141" />
+                        <img src="https://picsum.photos/250/141" />
+                        <img src="https://picsum.photos/250/141" />
+                        <img src="https://picsum.photos/250/141" />
+                        <img src="https://picsum.photos/250/141" />
+                        <img src="https://picsum.photos/250/141" />
+                        <img src="https://picsum.photos/250/141" />
+                    </div>
+                </div>
+                <div class="sec">
+                    <label>카메라 뒤 여성 제작진</label>
+                    <div class="imgs">
+                        <img src="https://picsum.photos/250/141" />
+                        <img src="https://picsum.photos/250/141" />
+                        <img src="https://picsum.photos/250/141" />
+                        <img src="https://picsum.photos/250/141" />
+                        <img src="https://picsum.photos/250/141" />
+                        <img src="https://picsum.photos/250/141" />
+                        <img src="https://picsum.photos/250/141" />
+                        <img src="https://picsum.photos/250/141" />
+                        <img src="https://picsum.photos/250/141" />
+                        <img src="https://picsum.photos/250/141" />
+                    </div>
+                </div>
+                <div class="sec">
+                    <label>카메라 뒤 여성 제작진</label>
+                    <div class="imgs">
+                        <img src="https://picsum.photos/250/141" />
+                        <img src="https://picsum.photos/250/141" />
+                        <img src="https://picsum.photos/250/141" />
+                        <img src="https://picsum.photos/250/141" />
+                        <img src="https://picsum.photos/250/141" />
+                        <img src="https://picsum.photos/250/141" />
+                        <img src="https://picsum.photos/250/141" />
+                        <img src="https://picsum.photos/250/141" />
+                        <img src="https://picsum.photos/250/141" />
+                        <img src="https://picsum.photos/250/141" />
+                    </div>
+                </div>
+            </section>
+        </main>
+        <footer>
+            <div>
+                <div class="icons">
+                    <img src="../resource/facebook.svg" />
+                    <img src="../resource/instagram.svg" />
+                    <img src="../resource/twitter.svg" />
+                    <img src="../resource/youtube.svg" />
+                </div>
+                <div class="links">
+                    <span>화면 해설</span>
+                    <span>고객 센터</span>
+                    <span>기프트카드</span>
+                    <span>미디어 센터</span>
+                    <span>투자 정보(IR)</span>
+                    <span>입사 정보</span>
+                    <span>이용 약관</span>
+                    <span>개인 정보</span>
+                    <span>법적 고지</span>
+                    <span>쿠키 설정</span>
+                    <span>회사 정보</span>
+                    <span>문의하기</span>
                 </div>
             </div>
-            <div class="sec">
-                <label>카메라 뒤 여성 제작진</label>
-                <div class="imgs">
-                    <img src='https://picsum.photos/250/141'/>
-                    <img src='https://picsum.photos/250/141'/>
-                    <img src='https://picsum.photos/250/141'/>
-                    <img src='https://picsum.photos/250/141'/>
-                    <img src='https://picsum.photos/250/141'/>
-                    <img src='https://picsum.photos/250/141'/>
-                    <img src='https://picsum.photos/250/141'/>
-                    <img src='https://picsum.photos/250/141'/>
-                    <img src='https://picsum.photos/250/141'/>
-                    <img src='https://picsum.photos/250/141'/>
-                </div>
-            </div>
-            <div class="sec">
-                <label>카메라 뒤 여성 제작진</label>
-                <div class="imgs">
-                    <img src='https://picsum.photos/250/141'/>
-                    <img src='https://picsum.photos/250/141'/>
-                    <img src='https://picsum.photos/250/141'/>
-                    <img src='https://picsum.photos/250/141'/>
-                    <img src='https://picsum.photos/250/141'/>
-                    <img src='https://picsum.photos/250/141'/>
-                    <img src='https://picsum.photos/250/141'/>
-                    <img src='https://picsum.photos/250/141'/>
-                    <img src='https://picsum.photos/250/141'/>
-                    <img src='https://picsum.photos/250/141'/>
-                </div>
-            </div>
-            <div class="sec">
-                <label>카메라 뒤 여성 제작진</label>
-                <div class="imgs">
-                    <img src='https://picsum.photos/250/141'/>
-                    <img src='https://picsum.photos/250/141'/>
-                    <img src='https://picsum.photos/250/141'/>
-                    <img src='https://picsum.photos/250/141'/>
-                    <img src='https://picsum.photos/250/141'/>
-                    <img src='https://picsum.photos/250/141'/>
-                    <img src='https://picsum.photos/250/141'/>
-                    <img src='https://picsum.photos/250/141'/>
-                    <img src='https://picsum.photos/250/141'/>
-                    <img src='https://picsum.photos/250/141'/>
-                </div>
-            </div>
-            <div class="sec">
-                <label>카메라 뒤 여성 제작진</label>
-                <div class="imgs">
-                    <img src='https://picsum.photos/250/141'/>
-                    <img src='https://picsum.photos/250/141'/>
-                    <img src='https://picsum.photos/250/141'/>
-                    <img src='https://picsum.photos/250/141'/>
-                    <img src='https://picsum.photos/250/141'/>
-                    <img src='https://picsum.photos/250/141'/>
-                    <img src='https://picsum.photos/250/141'/>
-                    <img src='https://picsum.photos/250/141'/>
-                    <img src='https://picsum.photos/250/141'/>
-                    <img src='https://picsum.photos/250/141'/>
-                </div>
-            </div>
-        </section>
-    </main>
-</body>
+        </footer>
+    </body>
 </html>

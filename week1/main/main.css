@@ -1,23 +1,4 @@
-@import "../reset.css";
-body{
-    margin-top: 10px;
-}
-
-header{
-    height: 68px;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-}
-header>#logo{
-    padding: 20px;
-}
-header>.menu>span{
-    padding: 10px;
-}
-header>.menu>span:hover{
-    color: gray;
-}
+@import "../style.css";
 
 #main_1{
     background-image: url("http://occ-0-993-3996.1.nflxso.net/dnm/api/v6/6AYY37jfdO6hpXcMjf9Yu5cnmO0/AAAABQjXH9o9c0HL0qrxVAGG_l9SIxIFJH74ypzSIBy4JNRYP9NznAxReHuWBLqJA4PyLM3RLmpCiuL46RFFdMPh-w7iQd0tyS0FIwAk.webp?r=790");
@@ -25,6 +6,47 @@ header>.menu>span:hover{
     height: 75vh;
     background-size: cover;
     background-repeat: no-repeat;
+}
+#main_1>div{
+    width: 30%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#main_1 .title{
+    font-size: 100px;
+    margin-bottom: 30px;
+}
+#main_1 .description{
+    width:400px;
+    margin-bottom: 30px;
+}
+
+#main_1 .buttons{
+    display: flex;
+    flex-direction: row;
+    align-self: start;
+    margin-left: 50px;
+    gap:10px
+}
+
+#play{
+    background-color: white;
+    color: black;
+}
+
+#info{
+    background-color: gray;
+    color: white;
+}
+.buttons>div{
+    width:100px;
+    height: 30px;
+    font-weight: 700;
+    border-radius: 5px;
+    text-align: center;
 }
 
 .sec{

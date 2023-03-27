@@ -1,0 +1,62 @@
+@import "reset.css";
+body{
+    margin-top: 10px;
+}
+
+header{
+    height: 68px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+header>#logo{
+    padding: 20px;
+}
+
+header>.menus{
+    display: flex;
+    width: calc(100% - 180px);
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menu>span{
+    margin-right: 20px;
+}
+.menu>span:hover{
+    color: gray;
+}
+.sub_menu>img{
+    padding:5px
+}
+
+footer{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+footer>div{
+    width: 70%;
+    color:gray;
+}
+
+.icons{
+    margin-bottom: 20px;
+}
+.icons>img{
+    margin-right: 30px;
+}
+
+.links{
+    height: 100px;
+    display: grid;
+    grid-template-columns: repeat(4, auto);
+    grid-template-rows: repeat(3,auto);
+    margin-bottom: 30px;
+}
+
+.links>span{
+    font-size: 15px;
+}

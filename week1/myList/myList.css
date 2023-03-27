@@ -1,20 +1,18 @@
-@import "../reset.css";
+@import "../style.css";
 body{
-    margin-top: 10px;
+    height: 95vh;
 }
-
-header{
-    height: 68px;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
+main{
+    margin:20px 40px;
+    height: 80%;
 }
-header>#logo{
-    padding: 20px;
+label{
+    font-size: 24px;
 }
-header>.menu>span{
-    margin-right: 20px;
-}
-header>.menu>span:hover{
-    color: gray;
+.imgs{
+    width: 100%;
+    padding-top: 50px;
+    display: grid;
+    grid-template-columns: repeat(6, 270px);
+    grid-template-rows: repeat(3,200px);
 }
